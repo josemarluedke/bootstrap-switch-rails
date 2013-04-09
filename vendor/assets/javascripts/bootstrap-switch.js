@@ -103,7 +103,7 @@
               var $element = $(this).parent();
 
               e.preventDefault();
-              e.stopImmediatePropagation();
+              //e.stopImmediatePropagation();
 
               $element.css('left', '');
 
